@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+venv/
+env/
+starter/
+*.egg-info/
+
+# MLflow artifacts and logs
+mlruns/
+mlartifacts/
+*/mlruns/*
+*/mlartifacts/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+# Logs
+logs/
